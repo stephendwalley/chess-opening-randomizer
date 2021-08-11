@@ -1,0 +1,40 @@
+.title {
+	font-size: 40px;
+	font-weight: 900;
+	color: #f0f6f7ff;
+}
+
+.openingName {
+	font-size: 22px;
+	color: #f0f6f7ff;
+	font-weight: 700;
+}
+
+.openingMoves {
+	font-size: 22px;
+	color: #f0f6f7ff;
+    padding-bottom: 20px;
+}
+
+#randomBtn {
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #F0F6F7FF;
+	background-color: #FF4F58FF;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #A89C94FF;
+}
+
+#randomBtn:hover {background-color: rgb(199, 63, 70)}
+
+#randomBtn:active {
+  background-color: rgb(199, 63, 70);
+  box-shadow: 0 5px #A89C94FF;
+  transform: translateY(4px);
+}
